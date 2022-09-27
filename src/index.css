@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  text-align: center;
+}
+
+.app-title{
+  font-size: xx-large;
+  text-align: center;
+   color: rgb(228, 196, 15);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.monsters-search-box{
+  text-align: center;
+  font-size: x-large;
+}
+.card-list{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px
+}
